@@ -20,14 +20,13 @@
   </style>
 </head>
 <body>
-  <img id="img" src="1.jpg">
+  <img id="img" src="image.jpg">
 
   <script>
     setInterval(() => {
       const img = document.getElementById("img");
-      img.src = "1.jpg?cache=" + Date.now();
+      img.src = "image.jpg?cache=" + Date.now();
     }, 1000);
   </script>
 </body>
 </html>
-
